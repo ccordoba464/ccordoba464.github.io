@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  background-color: #242424;
+  height: 8vh;
+  padding: 0 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 80px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img {
+}
+
+.about-info {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.section-title {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 2.4rem;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-auto-rows: 250px;
+  gap: 20px;
+}
+
+.project {
+  background-color: #474747;
+}
+
+.footer {
+  background-color: #242424;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
