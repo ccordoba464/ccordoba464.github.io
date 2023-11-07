@@ -4,6 +4,9 @@ import resume from "/Resume.pdf";
 import MornDashboard from "/MornDashboard.png";
 import VGWebsite from "/VGWebsite.png";
 import MedicalTracking from "/MedicalTracking.png";
+import NBA from "/NBA.png";
+import Z3 from "/Z3.png";
+import TaskM from "/TaskM.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -17,8 +20,11 @@ function App() {
             <h4 className="h4">Camilo Cordoba Escobar</h4>
           </div>
           <nav className="nav">
-            <a href={resume} className="a">
-              Projects
+            <a href="https://www.linkedin.com/in/ccoresco/" className="a">
+              Linkedin
+            </a>
+            <a href="https://github.com/ccordoba464" className="a">
+              Github
             </a>
             <a href={resume} className="a">
               Resume
@@ -46,7 +52,29 @@ function App() {
           <section className="section light">
             <h2 className="section-title">Recent projects</h2>
             <div className="project-container">
-              <div className="project">
+              <a
+                href="https://sleepwebapp.wpi.edu/"
+                target="_blank"
+                className="project-a project"
+              >
+                <div className="project-display">
+                  <img src={Z3} alt="" className="project-img" />
+                </div>
+                <div className="project-info">
+                  <p className="project-title">Z3 Wellness Application </p>
+                  <p className="project-desc">
+                    Z3-Wellness is a comprehensive sleep management web-based
+                    application that empowers college-age users to monitor their
+                    sleep health and achieve better overall well-being.{" "}
+                  </p>
+                </div>
+              </a>
+
+              <a
+                href="https://vowelgang.com/"
+                target="_blank"
+                className="project-a project"
+              >
                 <div className="project-display">
                   <img src={VGWebsite} alt="" className="project-img" />
                 </div>
@@ -58,23 +86,31 @@ function App() {
                     website was created using React (JavaScript, HTML, CSS).
                   </p>
                 </div>
-              </div>
-              <div className="project">
+              </a>
+
+              <a
+                href="https://vowelgang.com/"
+                target="_blank"
+                className="project-a project"
+              >
                 <div className="project-display">
                   <img src={MedicalTracking} alt="" className="project-img" />
                 </div>
                 <div className="project-info">
-                  <p className="project-title">
-                    Mass General Brigham Hospital Application
-                  </p>
+                  <p className="project-title">Hospital Application</p>
                   <p className="project-desc">
                     We created a Java application for employees at Mass General
                     Brigham Hospital that simplified the creation and management
                     of different types of requests.
                   </p>
                 </div>
-              </div>
-              <div className="project">
+              </a>
+
+              <a
+                href="https://github.com/Amitai5/final_project"
+                target="_blank"
+                className="project-a project"
+              >
                 <div className="project-display">
                   <img src={MornDashboard} alt="" className="project-img" />
                 </div>
@@ -87,42 +123,55 @@ function App() {
                     including Clippy!
                   </p>
                 </div>
-              </div>
-              <div className="project">
+              </a>
+
+              <a
+                href="https://cerulean-sopapillas-3bb452.netlify.app/"
+                target="_blank"
+                className="project-a project"
+              >
                 <div className="project-display">
-                  <img src={img} alt="" className="project-img" />
+                  <img src={NBA} alt="" className="project-img" />
                 </div>
                 <div className="project-info">
-                  <p className="project-title">Project title</p>
-                  <p className="project-desc">Project description</p>
+                  <p className="project-title">NBA Memory Game</p>
+                  <p className="project-desc">
+                    Memory Game that uses various different NBA players for
+                    cards. The goal of the game is to click all the cards
+                    without clicking on the same one twice.n
+                  </p>
                 </div>
-              </div>
-              <div className="project">
+              </a>
+
+              <a
+                href="https://github.com/ccordoba464/a3-camilo-cordobaescobar"
+                target="_blank"
+                className="project-a project"
+              >
                 <div className="project-display">
-                  <img src={img} alt="" className="project-img" />
+                  <img src={TaskM} alt="" className="project-img" />
                 </div>
                 <div className="project-info">
-                  <p className="project-title">Project title</p>
-                  <p className="project-desc">Project description</p>
+                  <p className="project-title">Task Manager</p>
+                  <p className="project-desc">
+                    Task Manager application that uses an express server, a
+                    MongoDB database for persistent storage, and bootstrap
+                    styling for the user interface.
+                  </p>
                 </div>
-              </div>
-              <div className="project">
-                <div className="project-display">
-                  <img src={img} alt="" className="project-img" />
-                </div>
-                <div className="project-info">
-                  <p className="project-title">Project title</p>
-                  <p className="project-desc">Project description</p>
-                </div>
-              </div>
+              </a>
             </div>
           </section>
         </main>
         <footer className="footer">
           <p>Find me online: </p>
           <div className="icon-container">
-            <FontAwesomeIcon icon={faGithub} className="icon" />
-            <FontAwesomeIcon icon={faLinkedin} className="icon" />
+            <a href="https://www.linkedin.com/in/ccoresco/" className="a">
+              <FontAwesomeIcon icon={faGithub} className="icon" />
+            </a>
+            <a href="https://github.com/ccordoba464" className="a">
+              <FontAwesomeIcon icon={faLinkedin} className="icon" />
+            </a>
           </div>
         </footer>
       </div>
