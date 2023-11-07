@@ -7,7 +7,6 @@ import MedicalTracking from "/MedicalTracking.png";
 import NBA from "/NBA.png";
 import Z3 from "/Z3.png";
 import TaskM from "/TaskM.png";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
