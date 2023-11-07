@@ -20,13 +20,21 @@ function App() {
             <h4 className="h4">Camilo Cordoba Escobar</h4>
           </div>
           <nav className="nav">
-            <a href="https://www.linkedin.com/in/ccoresco/" className="a">
+            <a
+              href="https://www.linkedin.com/in/ccoresco/"
+              target="_blank"
+              className="a"
+            >
               Linkedin
             </a>
-            <a href="https://github.com/ccordoba464" className="a">
+            <a
+              href="https://github.com/ccordoba464"
+              target="_blank"
+              className="a"
+            >
               Github
             </a>
-            <a href={resume} className="a">
+            <a href={resume} target="_blank" className="a">
               Resume
             </a>
           </nav>
@@ -166,10 +174,18 @@ function App() {
         <footer className="footer">
           <p>Find me online: </p>
           <div className="icon-container">
-            <a href="https://www.linkedin.com/in/ccoresco/" className="a">
+            <a
+              href="https://www.linkedin.com/in/ccoresco/"
+              target="_blank"
+              className="a"
+            >
               <FontAwesomeIcon icon={faGithub} className="icon" />
             </a>
-            <a href="https://github.com/ccordoba464" className="a">
+            <a
+              href="https://github.com/ccordoba464"
+              target="_blank"
+              className="a"
+            >
               <FontAwesomeIcon icon={faLinkedin} className="icon" />
             </a>
           </div>
