@@ -96,7 +96,7 @@ function App() {
               </a>
 
               <a
-                href="https://vowelgang.com/"
+                href="https://github.com/CS3733-C22-Team-E/MedicalTracking"
                 target="_blank"
                 className="project-a project"
               >
