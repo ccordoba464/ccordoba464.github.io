@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
 body,
@@ -136,13 +139,12 @@ table {
 /* ---------------------------- */
 
 :root {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Montserrat", sans-serif;
   line-height: 2;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: rgb(148, 85, 58);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
